@@ -1,0 +1,4 @@
+--find-links https://storage.googleapis.com/jax-releases/jax_releases.html
+chex
+jax[cuda]
+optax
