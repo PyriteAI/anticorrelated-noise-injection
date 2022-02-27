@@ -28,11 +28,3 @@ repos:
     hooks:
       - id: bandit
         args: ["-x", "*/**/*_test.py"]
-  - repo: local
-    hooks:
-      - id: pytest
-        name: pytest
-        entry: pytest src/acni
-        language: system
-        pass_filenames: false
-        types: [python]
