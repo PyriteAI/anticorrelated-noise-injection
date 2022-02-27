@@ -12,7 +12,7 @@ absl-py==1.0.0
     #   jax
     #   jaxlib
     #   optax
-chex==0.1.0
+chex==0.1.1
     # via
     #   -r requirements.in
     #   optax
